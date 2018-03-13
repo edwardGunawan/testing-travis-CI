@@ -17,9 +17,9 @@ deploy:
   access_key_id: $ACCESSKEYID
   secret_access_key:
     secure: "$SECRETACCESSKEY"
-  region: "ca-central-1"  
+  region: "ca-central-1"
   app: "elastic-beanstalk-tutorial"
   env: "elastic-beanstalk-tutorial-dev"
-  bucket_name: "elasticbeanstalk-ca-central-1-882371129764"
+  bucket_name: "elastic-beanstalk-tutorial-dev.ca-central-1"
   on:
     branch: master
