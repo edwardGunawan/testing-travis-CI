@@ -20,6 +20,6 @@ deploy:
   region: "ca-central-1"
   app: "elastic-beanstalk-tutorial"
   env: "elastic-beanstalk-tutorial-dev"
-  bucket_name: "elastic-beanstalk-tutorial-dev.ca-central-1"
+  bucket_name: "elastic-beanstalk-tutorial-dev.ca-central-1" # this is the URL
   on:
     branch: master
